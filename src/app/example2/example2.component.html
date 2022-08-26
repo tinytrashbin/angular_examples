@@ -1,0 +1,21 @@
+<div class="title" >Example2:</div>
+
+<p>example2 works!</p>
+
+name = {{name}}
+
+<div className="top_box" >
+  <div *ngFor="let book of books" style="border: solid red 1px; padding: 10px" >
+    Book-{{book.id}}
+    <div>{{book.is_open ? "Open" : "Close"}} ; Price = {{book.price}}</div>
+
+    <button (click)="open(book)" >Open</button>
+    <button (click)="close(book)" >Close</button>
+
+    <button (click)="increase_price(book, 100)" >
+      Increase Price
+    </button>
+
+  </div>
+</div>
+<button (click)="add()" >Add</button>

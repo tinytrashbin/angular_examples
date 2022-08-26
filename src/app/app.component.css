@@ -1,0 +1,27 @@
+.example {
+  margin: 5px;
+  padding: 5px;
+  border: solid #ccc 1px;
+  margin-bottom: 40px;
+}
+
+.title {
+  margin: 10px 0px;
+}
+
+.top_box {
+  border: solid #ccc 1px;
+  padding:  10px;
+  margin: 10px;
+}
+
+.link_box {
+  margin:  5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.link_box:hover {
+  background-color: #aaa;
+}
